@@ -76,6 +76,7 @@
                     android:layout_height="64dp"/>
                 <com.google.android.material.textview.MaterialTextView
                     android:layout_width="wrap_content"
+                    android:gravity="center_horizontal"
                     android:text="Artikel didapatkan dari: https://www.yatekno.com/hp-murah/"
                     android:layout_height="wrap_content"/>
             </LinearLayout>
