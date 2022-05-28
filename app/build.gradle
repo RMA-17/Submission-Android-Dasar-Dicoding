@@ -48,4 +48,5 @@ dependencies {
     implementation 'com.github.kirich1409:viewbindingpropertydelegate:1.5.3'
     implementation "androidx.preference:preference-ktx:1.2.0"
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'androidx.core:core-splashscreen:1.0.0-rc01'
 }

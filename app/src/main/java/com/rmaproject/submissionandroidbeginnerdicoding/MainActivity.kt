@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import by.kirich1409.viewbindingdelegate.viewBinding
 import com.rmaproject.submissionandroidbeginnerdicoding.databinding.ActivityMainBinding
 import com.rmaproject.submissionandroidbeginnerdicoding.model.ProductModel
@@ -19,8 +20,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setCurrentTheme()
+        val splashScreen = installSplashScreen()
+
         setContentView(R.layout.activity_main)
 
+        splashScreen.setKeepOnScreenCondition {false}
 
         val productList : MutableList<ProductModel> = getProductList()
         setAdapter(productList)
