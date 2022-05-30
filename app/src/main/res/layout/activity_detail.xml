@@ -31,6 +31,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:id="@+id/img_product"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/ic_baseline_image_24"
                     android:layout_height="match_parent"/>
             </LinearLayout>
@@ -51,7 +52,6 @@
                 app:layout_collapseMode="pin"
                 app:navigationIconTint="?colorOnBackground"
                 app:navigationIcon="@drawable/ic_baseline_arrow_back_ios_new_24"
-
                 >
 
             </com.google.android.material.appbar.MaterialToolbar>
@@ -120,7 +120,7 @@
             android:layout_weight="1"
             app:iconGravity="textStart"
             app:icon="@drawable/ic_baseline_shopping_cart_24"
-            android:text="Go to store"
+            android:text="Kunjungi toko"
             android:layout_height="wrap_content"/>
     </LinearLayout>
 
