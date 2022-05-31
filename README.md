@@ -4,4 +4,6 @@ Ini adalah repository untuk menyimpan Submission Android Dasar Dicoding oleh [RM
 
 
 
-# Menyalin project seseorang tidaklah membuatmu hebat
+# "Menyalin project seseorang kecuali untuk mempelajarinya tidaklah membuatmu hebat"
+
+~ *Tetsuya Fuyuki*
